@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "build": "@11ty/eleventy",
+    "serve": "@11ty/eleventy --serve",
+    "clean": "rm -rf ./_site"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
